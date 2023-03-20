@@ -1,0 +1,36 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/sarath/code/scala/basics/src/main/scala/in/sarathraj/training/exercise/GradeSchool_Low.scala:7:36 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m7 |[0m    [33mdef[0m [36madd[0m([36mname[0m: [35mString[0m, [36mg[0m: [35mInt[0m) = DB + ([31m1[0m -> DB.get(g) :+ name)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                    ^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                    Not found: DB[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/sarath/code/scala/basics/src/main/scala/in/sarathraj/training/zio/Basic_zio_1.scala:40:2 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m40 |[0m  [33mval[0m [36maap1[0m:[35mRIO[0m[[35mInt[0m,[35mInt[0m] = ZIO.succeed([31m1[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m  Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/sarath/code/scala/basics/src/main/scala/in/sarathraj/training/zio/Basic_zio_1.scala:44:2 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m44 |[0m  [33mval[0m [36mab[0m:[35mTask[0m[[35mInt[0m]  = ZIO.fail(RuntimeException([31m"Something went wrong"[0m))[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m  Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/sarath/code/scala/basics/src/main/scala/in/sarathraj/training/zio/Basic_zio_1.scala:47:2 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m47 |[0m  [33mval[0m [36mi[0m:[35mIO[0m[[35mString[0m,[35mInt[0m] = ZIO.succeed([31m34[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m  Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/sarath/code/scala/basics/src/main/scala/in/sarathraj/training/zio/Basic_zio_1.scala:48:2 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m48 |[0m  [33mval[0m [36mip[0m:[35mIO[0m[[35mString[0m,[35mInt[0m] = ZIO.fail([31m"error"[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m  Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/sarath/code/scala/basics/src/main/scala/in/sarathraj/training/zio/Basic_zio_1.scala:51:2 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m51 |[0m  [33mdef[0m [36mmain[0m([36margs[0m: [35mArray[0m[[35mString[0m]): [35mUnit[0m = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m  Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/sarath/code/scala/basics/src/main/scala/in/sarathraj/training/zio/Basic_zio_3.scala:29:1 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m29 |[0m [33mval[0m [36matt1[0m:[35mZIO[0m[[35mAny[0m,[35mNothing[0m,[35mString[0m] = anAttempt.foldZIO([0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/sarath/code/scala/basics/src/main/scala/in/sarathraj/training/zio/Zio_concurrency_1.scala:20:2 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m20 |[0m  [33moverride[0m [33mdef[0m run: ZIO[Any, Any, Any] = effect3[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m  Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m7 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
