@@ -7838,3 +7838,632 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.03.20 17:08:48 INFO  time: compiled basics in 3.21s
 2023.03.20 17:08:48 INFO  compiling basics (14 scala sources)
 2023.03.20 17:08:49 INFO  time: compiled basics in 1.17s
+2023.03.20 14:55:10 INFO  Started: Metals version 0.11.11 in workspace '/workspaces/scala-training' for client Visual Studio Code 1.76.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/codespace/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.20 14:55:15 INFO  time: initialize in 4.87s
+2023.03.20 14:55:19 INFO  Attempting to connect to the build server...
+2023.03.20 14:55:19 INFO  Setting up current java home /usr/local/sdkman/candidates/java/current in /home/codespace/.bloop/bloop.json
+Mar 20, 2023 2:55:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.20 14:55:27 ERROR Starting the bsp launcher for bloop...
+2023.03.20 14:55:27 ERROR Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2081129985931244352/bsp.socket'...
+2023.03.20 14:55:27 ERROR Waiting for the bsp connection to come up...
+2023.03.20 14:55:27 ERROR Waiting for the bsp connection to come up...
+2023.03.20 14:55:27 ERROR Waiting for the bsp connection to come up...
+2023.03.20 14:55:27 ERROR Waiting for the bsp connection to come up...
+2023.03.20 14:55:27 ERROR Waiting for the bsp connection to come up...
+2023.03.20 14:55:27 ERROR Waiting for the bsp connection to come up...
+2023.03.20 14:55:27 ERROR Waiting for the bsp connection to come up...
+2023.03.20 14:55:27 ERROR Waiting for the bsp connection to come up...
+2023.03.20 14:55:27 ERROR error: The command bsp --protocol local --socket /tmp/bsp-launcher2081129985931244352/bsp.socket returned with an error
+2023.03.20 14:55:27 ERROR > No server running at 127.0.0.1:8212, let's fire one...
+2023.03.20 14:55:27 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.5.6...
+2023.03.20 14:55:27 ERROR > Attempting a connection to the server...
+2023.03.20 14:55:27 ERROR > Starting bloop server at 127.0.0.1:8212...
+2023.03.20 14:55:27 ERROR > Attempting a connection to the server...
+2023.03.20 14:55:27 ERROR > Attempting a connection to the server...
+2023.03.20 14:55:27 ERROR > Attempting a connection to the server...
+2023.03.20 14:55:27 ERROR > Attempting a connection to the server...
+2023.03.20 14:55:27 ERROR > Attempting a connection to the server...
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m Loading 2 projects from '/workspaces/scala-training/.bloop'...
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m Loading project from '/workspaces/scala-training/.bloop/basics.json'
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m Loading project from '/workspaces/scala-training/.bloop/basics-test.json'
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.1/scala3-library_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.2.1/scala3-compiler_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.2.1/scala3-interfaces-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.2.1/tasty-core_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.3.0-scala-1/scala-asm-9.3.0-scala-1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.2.1/scaladoc_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.2.1/scala3-tasty-inspector_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.14.3/jsoup-1.14.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.3/jackson-dataformat-yaml-2.13.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.2.1.
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.3/jackson-dataformat-yaml-2.13.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.14.3/jsoup-1.14.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.3.0-scala-1/scala-asm-9.3.0-scala-1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.2.1/scala3-compiler_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.2.1/scala3-interfaces-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.1/scala3-library_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.2.1/scala3-tasty-inspector_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.2.1/scaladoc_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.2.1/tasty-core_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.1/scala3-library_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.2.1/scala3-compiler_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.2.1/scala3-interfaces-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.2.1/tasty-core_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.3.0-scala-1/scala-asm-9.3.0-scala-1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.2.1/scaladoc_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.2.1/scala3-tasty-inspector_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m Elapsed: 183.384587 ms
+2023.03.20 14:55:27 ERROR > [0m[31m[E][0m Failed to load project from /workspaces/scala-training/.bloop/basics-test.json
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /workspaces/scala-training/.bloop/basics-test.json
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:295)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:833)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.1/scala3-library_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:111)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:107)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:180)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:185)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:185)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:311)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:306)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:289)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:833)
+2023.03.20 14:55:27 ERROR error: Trying a tcp-based connection to the server instead...
+2023.03.20 14:55:27 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 29246'...
+2023.03.20 14:55:27 ERROR Waiting for the bsp connection to come up...
+2023.03.20 14:55:27 ERROR error: The command bsp --protocol tcp --port 29246 returned with an error
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.14.3/jsoup-1.14.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.3/jackson-dataformat-yaml-2.13.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.1/scala3-library_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.2.1/scala3-compiler_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.2.1/scala3-interfaces-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.2.1/tasty-core_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.3.0-scala-1/scala-asm-9.3.0-scala-1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.2.1/scaladoc_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.2.1/scala3-tasty-inspector_3-3.2.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.14.3/jsoup-1.14.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.3/jackson-dataformat-yaml-2.13.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.2.1.
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[33m[W][0m Scala instance jar /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar doesn't exist!
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.3/jackson-dataformat-yaml-2.13.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.14.3/jsoup-1.14.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.3.0-scala-1/scala-asm-9.3.0-scala-1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.2.1/scala3-compiler_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.2.1/scala3-interfaces-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.1/scala3-library_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.2.1/scala3-tasty-inspector_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.2.1/scaladoc_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.2.1/tasty-core_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.2.1.
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.3/jackson-dataformat-yaml-2.13.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.14.3/jsoup-1.14.3.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.3.0-scala-1/scala-asm-9.3.0-scala-1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.2.1/scala3-compiler_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.2.1/scala3-interfaces-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.1/scala3-library_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.2.1/scala3-tasty-inspector_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.2.1/scaladoc_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.2.1/tasty-core_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m   => /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar
+2023.03.20 14:55:27 ERROR > [0m[32m[D][0m Elapsed: 34.291746 ms
+2023.03.20 14:55:27 ERROR > [0m[31m[E][0m Failed to load project from /workspaces/scala-training/.bloop/basics.json
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /workspaces/scala-training/.bloop/basics.json
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:295)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:833)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: /Users/sarath/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.1/scala3-library_3-3.2.1.jar
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:111)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:107)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:180)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:185)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:185)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:311)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:306)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:289)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2023.03.20 14:55:27 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:833)
+2023.03.20 14:55:27 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2023.03.20 14:55:28 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:496)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.03.20 14:55:28 WARN  no build target for: /workspaces/scala-training/src/main/scala/in/sarathraj/getprogrammingscala/VendingMachineOne.scala
+2023.03.20 14:55:32 INFO  running '/usr/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals5014171534700477425/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.03.20 14:55:32 ERROR [info] [launcher] getting org.scala-sbt sbt 1.8.2  (this may take some time)...
+2023.03.20 14:55:39 ERROR [info] [launcher] getting Scala 2.12.17 (for sbt)...
+2023.03.20 14:55:42 INFO  [info] welcome to sbt 1.8.2 (Microsoft Java 17.0.6)
+2023.03.20 14:55:46 INFO  [info] loading settings for project scala-training-build-build from metals.sbt ...
+2023.03.20 14:55:48 INFO  [info] loading project definition from /workspaces/scala-training/project/project
+2023.03.20 14:55:52 INFO  [info] loading settings for project scala-training-build from metals.sbt ...
+2023.03.20 14:55:52 INFO  [info] loading project definition from /workspaces/scala-training/project
+2023.03.20 14:55:58 INFO  [success] Generated .bloop/scala-training-build.json
+2023.03.20 14:55:58 INFO  [warn] Removed stale /workspaces/scala-training/project/.bloop/basics-build.json
+2023.03.20 14:55:58 INFO  [success] Total time: 5 s, completed Mar 20, 2023, 2:55:58 PM
+2023.03.20 14:56:02 INFO  [info] loading settings for project scala-training from build.sbt ...
+2023.03.20 14:56:02 INFO  [info] set current project to HelloWorld (in build file:/workspaces/scala-training/)
+2023.03.20 14:56:03 INFO  no build target found for /workspaces/scala-training/src/main/scala/in/sarathraj/getprogrammingscala/VendingMachineOne.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.20 14:56:04 INFO  [warn] 
+2023.03.20 14:56:04 INFO  [warn] 	Note: Unresolved dependencies path:
+2023.03.20 14:56:04 INFO  [error] Couldn't run bloopGenerate for scala-training-test. Cause:
+2023.03.20 14:56:04 INFO  [error] Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(test)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error] Couldn't run bloopGenerate for scala-training. Cause:
+2023.03.20 14:56:04 INFO  [error] Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),updateClassifiers)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Select(updateClassifiers), Zero),classifiersModule)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),scalacOptions)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),externalDependencyClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),managedClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),bloopInternalClasspath)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),scalaInstance)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(runtime)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Select(ConfigKey(compile)), Zero, Zero),classpathConfiguration)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None)), directCause=None), Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),scalaInstance)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task(_)), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(Incomplete(node=Some(Task((tags: Map(Tag(update) -> 1, Tag(network) -> 1), taskDefinitionKey: ScopedKey(Scope(Select(ProjectRef(file:/workspaces/scala-training/,scala-training)), Zero, Zero, Zero),update)))), tpe=Error, msg=None, causes=List(), directCause=Some(sbt.librarymanagement.ResolveException: Error downloading org.typelevel:cats_3:2.2.0
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   Not found
+2023.03.20 14:56:04 INFO  [error]   not found: /home/codespace/.ivy2/localorg.typelevel/cats_3/2.2.0/ivys/ivy.xml
+2023.03.20 14:56:04 INFO  [error]   not found: https://repo1.maven.org/maven2/org/typelevel/cats_3/2.2.0/cats_3-2.2.0.pom))), directCause=None)), directCause=None)), directCause=None)), directCause=None)
+2023.03.20 14:56:04 INFO  [warn] Removed stale /workspaces/scala-training/.bloop/basics.json
+2023.03.20 14:56:04 INFO  [warn] Removed stale /workspaces/scala-training/.bloop/basics-test.json
+2023.03.20 14:56:04 INFO  [success] Total time: 1 s, completed Mar 20, 2023, 2:56:04 PM
+2023.03.20 14:56:04 INFO  time: ran 'sbt bloopInstall' in 32s
+2023.03.20 14:56:04 INFO  Attempting to connect to the build server...
+2023.03.20 14:56:04 INFO  Bloop uses /usr/local/sdkman/candidates/java/current defined at /home/codespace/.bloop/bloop.json
+2023.03.20 14:56:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/scala-training/.metals/bsp.trace.json or /home/codespace/.cache/metals/bsp.trace.json
+2023.03.20 14:56:06 INFO  Attempting to connect to the build server...
+2023.03.20 14:56:06 INFO  Bloop uses /usr/local/sdkman/candidates/java/current defined at /home/codespace/.bloop/bloop.json
+2023.03.20 14:56:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/scala-training/project/.metals/bsp.trace.json or /home/codespace/.cache/metals/bsp.trace.json
+2023.03.20 14:56:09 INFO  time: code lens generation in 35s
+2023.03.20 14:56:09 INFO  time: code lens generation in 40s
+2023.03.20 14:56:09 INFO  time: Connected to build server in 4.83s
+2023.03.20 14:56:09 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.20 14:56:09 ERROR Empty build targets. Expected at least one build target identifier.
+2023.03.20 14:56:09 ERROR Empty build targets. Expected at least one build target identifier.
+2023.03.20 14:56:09 ERROR Empty build targets. Expected at least one build target identifier.
+2023.03.20 14:56:09 ERROR Empty build targets. Expected at least one build target identifier.
+2023.03.20 14:56:09 INFO  time: Imported build in 0.21s
+2023.03.20 14:56:16 INFO  time: indexed workspace in 6.88s
+2023.03.20 14:56:16 WARN  no build target for: /workspaces/scala-training/src/main/scala/in/sarathraj/getprogrammingscala/VendingMachineOne.scala
+2023.03.20 14:56:44 WARN  no build target for: /workspaces/scala-training/src/main/scala/in/sarathraj/getprogrammingscala/UnitTwo.scala.scala
+2023.03.20 14:56:59 WARN  no build target for: /workspaces/scala-training/src/main/scala/in/sarathraj/getprogrammingscala/UnitTwo.scala
+2023.03.20 14:57:30 WARN  no build target for: /workspaces/scala-training/src/main/scala/in/sarathraj/getprogrammingscala/UnitTwo.scala
+2023.03.20 14:57:31 WARN  no build target for: /workspaces/scala-training/src/main/scala/in/sarathraj/getprogrammingscala/UnitTwo.scala
+Mar 20, 2023 2:57:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fworkspaces%2Fscala-training%2Fsrc%2Fmain%2Fscala%2Fin%2Fsarathraj%2Fgetprogrammingscala%2FUnitTwo.scala:1: error: unclosed quoted identifier
+object `UnitTwo {
+       ^
+file%3A%2F%2F%2Fworkspaces%2Fscala-training%2Fsrc%2Fmain%2Fscala%2Fin%2Fsarathraj%2Fgetprogrammingscala%2FUnitTwo.scala:1: error: unclosed quoted identifier
+object `UnitTwo {
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:521)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:369)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:895)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 20, 2023 2:57:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fworkspaces%2Fscala-training%2Fsrc%2Fmain%2Fscala%2Fin%2Fsarathraj%2Fgetprogrammingscala%2FUnitTwo.scala:1: error: unclosed quoted identifier
+object `UnitTwo {
+       ^
+file%3A%2F%2F%2Fworkspaces%2Fscala-training%2Fsrc%2Fmain%2Fscala%2Fin%2Fsarathraj%2Fgetprogrammingscala%2FUnitTwo.scala:1: error: unclosed quoted identifier
+object `UnitTwo {
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:521)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:369)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:895)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:395)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:34)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.20 14:57:32 WARN  no build target for: /workspaces/scala-training/src/main/scala/in/sarathraj/getprogrammingscala/UnitTwo.scala
