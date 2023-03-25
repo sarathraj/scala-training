@@ -67,7 +67,44 @@ object UnitThree extends App{
 
    // partial function
 
+    def sqrtOrZero(n:Int):Double = n match {
+      case x if x>0 => Math.sqrt(n)
+      case _ => 0
+    }
+
+    def sqrtOrValue(n:Int):Double = n match {
+      case x if x>0 => Math.sqrt(n)
+      case x => x
+    }
+
+    val sqrt:PartialFunction[Int,Double] = {
+      case x if x>0 => Math.sqrt(x)
+    }
 
 
+    println(sqrt(10))
+  //println(sqrt(-10))
+  //println(sqrt(0))
+
+  // Function composition
+  //you usually refer to chaining two functions together by passing the result of the first function as the parameter to the sec- ond one. For example, consider the following two functions:
+
+  val f:String => Int = _.size
+  val g:Int => Boolean = _ > 5
+
+  val result = g(f("sarath"))
+
+  //val gof:String => Boolean = g(f(_))
+  val gof1:String => Boolean = {  s=>   g(f(s))  }
+  val gof2:String => Boolean = f.andThen(g)
+
+
+   println(gof2("Sarath"))
+
+
+  val zero: PartialFunction[Int, Double] = { case _ => 0 }
+  val value: PartialFunction[Int, Double] = { case x => x }
+  def sqrtOrZero(n: Int): Double = sqrt.orElse(zero)(n)
+  def sqrtOrValue(n: Int): Double = sqrt.orElse(value)(n)
 
 }
