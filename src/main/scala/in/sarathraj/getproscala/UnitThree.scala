@@ -1,4 +1,4 @@
-package in.sarathraj.getprogrammingscala
+package in.sarathraj.getproscala
 
 object UnitThree extends App{
 
@@ -34,7 +34,7 @@ object UnitThree extends App{
   val negateConcise1:(Int) => Int = _+1
 
 
-  val negateUpdate = { (a:Int) => a * (-1) }
+  val negateUpdate :(Int) => Int  = { _ * -1}
 
   println(negateUpdate(10))
 
@@ -104,7 +104,7 @@ object UnitThree extends App{
 
   val zero: PartialFunction[Int, Double] = { case _ => 0 }
   val value: PartialFunction[Int, Double] = { case x => x }
-  def sqrtOrZero(n: Int): Double = sqrt.orElse(zero)(n)
-  def sqrtOrValue(n: Int): Double = sqrt.orElse(value)(n)
+ // def sqrtOrZero(n: Int): Double = sqrt.orElse(zero)(n)
+  //def sqrtOrValue(n: Int): Double = sqrt.orElse(value)(n)
 
 }

@@ -1,4 +1,4 @@
-package in.sarathraj.getprogrammingscala
+package in.sarathraj.getproscala
 
 object UnitOne extends App{
 

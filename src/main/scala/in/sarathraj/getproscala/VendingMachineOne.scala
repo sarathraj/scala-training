@@ -1,4 +1,4 @@
-package in.sarathraj.getprogrammingscala
+package in.sarathraj.getproscala
 //package getprogrammingscala
 
 // Problem

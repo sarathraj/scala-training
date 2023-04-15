@@ -1,4 +1,4 @@
-package in.sarathraj.getprogrammingscala
+package in.sarathraj.getproscala
 
 // imporvement
 // ERROR HANDLING If a user enters an invalid time zone, your application crashes with a nasty and difficult-to-understand exception
